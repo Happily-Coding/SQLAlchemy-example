@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sqlalchemy example"
+version = "0.1.0"
+description = "An example on how to use sqlalchemy. Made with learning purposes."
+authors = ["OnyxianSoul <onyxiansoul@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SQLAlchemy = "^2.0.30"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
